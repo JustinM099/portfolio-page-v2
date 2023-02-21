@@ -37,9 +37,9 @@ const Contact = () => {
                         <Grid item xs={12}>
                             <CardContent
                             >
-                                <Button variant="outlined" color="inherit" size="large" style={{margin: '1%'}}>Resume</Button>
-                                <Button variant="outlined" color="inherit" size="large" style={{margin: '1%'}}>Call Me!</Button>
-                                <Button variant="outlined" color="inherit" size="large"style={{margin: '1%'}}>Email Me!</Button>
+                                <Button variant="outlined" color="inherit" size="large" style={{margin: '1%'}} href={'https://drive.google.com/file/d/16crLrAOHcSSaTRwX3CIlfK9Xxi9FSs7X/view?usp=share_link'}>Resume</Button>
+                                <Button variant="outlined" color="inherit" size="large" style={{margin: '1%'}} href={'tel:+12068615635'}>Call Me!</Button>
+                                <Button variant="outlined" color="inherit" size="large"style={{margin: '1%'}} href={'mailto:justinm099@mac.com'}>Email Me!</Button>
                             </CardContent>
                         </Grid>
                     </Grid>
