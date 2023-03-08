@@ -38,8 +38,8 @@ function Navbar() {
                     <Typography
                         variant="h6"
                         noWrap
-                        component="a"
-                        href="/home"
+                        // component="a"
+                        // href="/home"
                         sx={{
                             mr: 2,
                             display: { xs: 'none', md: 'flex' },
